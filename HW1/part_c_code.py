@@ -1,3 +1,8 @@
+# Author: Mojtaba AlShams
+# Professional email: mojtaba.alshams@kaust.edu.sa
+# Personal email: m.f.shams@hotmail.com
+# This project github link: https://github.com/MFShams/Dynamic-Programming-and-Optimal-Control-Course-Codes/tree/main/HW1
+
 import time
 import numpy as np
 import barrieres.HW1wBarrierPartC as pikfile
