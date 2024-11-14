@@ -3,6 +3,11 @@ import numpy as np
 import barrieres.HW1wBarrierPartB as vkfilewbar
 import evaluateValIter as eval
 import matplotlib.pyplot as plt
+import os
+
+folder_path = os.path.join(os.getcwd(),'plots')
+if not os.path.exists(folder_path):
+        os.mkdir(folder_path)
 
 keepiterate = True
 maze_size = 10

@@ -5,7 +5,12 @@ import barrieres.HW1wBarrierPartC as pikfile
 import evaluatePolIter as evalPi
 import evaluateValIter as evalV
 import matplotlib.pyplot as plt
+import os
 
+folder_path = os.path.join(os.getcwd(),'plots')
+if not os.path.exists(folder_path):
+        os.mkdir(folder_path)
+        
 def initVkPik(maze_size, optCont):
     movesDic = {
         "N": (-1, 0),
